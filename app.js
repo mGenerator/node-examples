@@ -1,4 +1,6 @@
-const rect = require("./rectangle");
+//nodejs syntax
+// const rect = require("./rectangle");
+import rect from "./rectangle.js"; //this is es6 syntax
 
 function solveRect(l, w) {
   console.log(`Solving for rectangle with dimensions: ${l}, ${w} `);
